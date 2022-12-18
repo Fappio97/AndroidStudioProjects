@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Eco Logical</string>
+    <string name="title_home">Casa</string>
+    <string name="title_mission">Missioni</string>
+    <string name="title_trash">Spazzatura</string>
+    <string name="title_goals">Obiettivi</string>
+    <string name="title_rewards">Premi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Frammento vuoto</string>
+    <!-- Strings related to login -->
+    <string name="welcome">"Benvenuto!"</string>
+    <string name="invalid_username">Username invalido</string>
+    <string name="login_failed">"Login fallito"</string>
+
+    <!-- Authentication -->
+    <string name="email">Email</string>
+    <string name="login">Accedi</string>
+    <string name="sign_in_with_google">Accedi con Google</string>
+    <string name="sign_in_with_facebook">Accedi con Facebook</string>
+    <string name="sign_in_with_twitter">Accedi con Twitter</string>
+    <string name="authentication">Accedi</string>
+    <string name="language_selected">Italiano</string>
+    <string name="invalid_email">Email non valida</string>
+    <string name="no_internet_connection">Nessuna connessione internet</string>
+    <string name="invalid_code">Collegamento scaduto</string>
+    <string name="or">o</string>
+    <string name="privacy_policy">Informativa policy</string>
+    <string name="invalid_link_code">Link invalido</string>
+
+    <!-- Email -->
+    <string name="check_your_inbox">Controlla la tua casella di posta</string>
+    <string name="we_have_sent_an_email_with_a_link_to_sign_in_to">Abbiamo inviato un\'email con un link di accesso a</string>
+    <string name="open_email_app">Apri app email</string>
+    <string name="send_email_again">Invia di nuovo l\'email</string>
+    <string name="wait_30_seconds">Perfavore aspetta 30 secondi</string>
+    <string name="choose_email_client">Scegli il tuo client di posta</string>
+    <string name="there_is_no_email_client_installed">Non ci sono email client installati</string>
+
+
+
+    <!-- Facebook -->
+    <string name="facebook_app_id">557333348629176</string>
+    <string name="fb_login_protocol_scheme">fb557333348629176</string>
+
+    <string-array name="slogan_array">
+        <item>Spegni le luci quando non ti servono</item>
+        <item>Spegni le luci quando non ti servono</item>
+        <item>Stacca sempre le spine e spegni lo stand-by</item>
+        <item>Usa lampadine a basso consumo</item>
+        <item>Chiudi il rubinetto quando ti lavi i denti</item>
+        <item>Usa il più possibile l\'acqua fredda</item>
+        <item>Compra frutta e verdura fresca e sfusa</item>
+        <item>Prediligi articoli non imbustato in sacchetti di plastica</item>
+        <item>Limita gli sprechi di cibo</item>
+        <item>Compra capi d\'abbigliamento ecosostenibili</item>
+        <item>Evita l\'uso di piatti e bicchieri di plastica</item>
+        <item>Consuma bibite in bottiglie di vetro</item>
+        <item>Utilizza mezzi pubblici</item>
+        <item>Evita l\'uso di detersivi e saponi chimici</item>
+        <item>Acquista prodotti biologici invece di quelli convenzionali</item>
+        <item>Passa da una dieta a base di prodotti di origine animale a una dieta prevalentemente vegetale</item>
+        <item>Impara a riparare e reciclare</item>
+    </string-array>
+
+    <!-- Splash
+    <string-array name="splash_array" tools:ignore="ExtraTranslation">
+
+
+    </string-array>-->
+
+</resources>

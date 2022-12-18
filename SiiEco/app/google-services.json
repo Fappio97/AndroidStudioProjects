@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "251564232592",
+    "project_id": "siieco",
+    "storage_bucket": "siieco.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251564232592:android:e8c27b67702bedb9c06d15",
+        "android_client_info": {
+          "package_name": "it.unical.demacs.siieco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251564232592-jjasach0c5ntsnf9250qg7hjgcicl627.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.unical.demacs.siieco",
+            "certificate_hash": "8c763d7c2a383253955d600f95f21122d829d566"
+          }
+        },
+        {
+          "client_id": "251564232592-ir5c4hgro69sfrg49mnbpl66bdirp07j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtxj2m0T6kYi1sDc3QT0g-_0cFf8M4-f8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251564232592-ir5c4hgro69sfrg49mnbpl66bdirp07j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

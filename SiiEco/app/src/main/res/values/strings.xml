@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Eco Logical</string>
+    <string name="title_home">Home</string>
+
+    <string name="title_mission">Mission</string>
+    <string name="title_trash">Trash</string>
+    <string name="title_goals">Goals</string>
+    <string name="title_rewards">Rewards</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings related to login -->
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- Authentication -->
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="sign_in_with_google">Connect with Google</string>
+    <string name="sign_in_with_facebook">Connect with Facebook</string>
+    <string name="sign_in_with_twitter">Connect with Twitter</string>
+    <string name="authentication">Authentication</string>
+    <string name="language_selected">English</string>
+    <string name="invalid_email">Invalid email</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="invalid_code">Link expired</string>
+    <string name="or">or</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="choose_email_client">Choose your mail client</string>
+    <string name="invalid_link_code">Invalid link code</string>
+
+    <!-- Email -->
+    <string name="check_your_inbox">Check your inbox</string>
+    <string name="we_have_sent_an_email_with_a_link_to_sign_in_to">We have sent an email with a link to sign in to</string>
+    <string name="open_email_app">Open email app</string>
+    <string name="send_email_again">Send email again</string>
+    <string name="wait_30_seconds">Please wait 30 seconds</string>
+    <string name="there_is_no_email_client_installed">There is no email client installed</string>
+
+
+    <!-- Facebook -->
+    <string name="facebook_app_id">557333348629176</string>
+    <string name="fb_login_protocol_scheme">fb557333348629176</string>
+
+    <string-array name="slogan_array">
+        <item>Turn off the lights when you don\'t need them</item>
+        <item>Always unplug and switch off standby</item>
+        <item>Use low-energy light bulbs</item>
+        <item>Turn off the tap when brushing your teeth</item>
+        <item>Use cold water as much as possible</item>
+        <item>Buy fresh and loose fruit and vegetables</item>
+        <item>Go for items unwrapped in plastic bags</item>
+        <item>Limit food waste</item>
+        <item>Buy eco-friendly clothing</item>
+        <item>Avoid the use of plastic plates and cups</item>
+        <item>Consume soft drinks in glass bottles</item>
+        <item>Use public transport</item>
+        <item>Avoid the use of chemical detergents and soaps</item>
+        <item>Buy organic products instead of conventional ones</item>
+        <item>Switch from a diet based on products of animal origin to a predominantly plant-based diet</item>
+        <item>Learn to repair and recycle</item>
+    </string-array>
+
+</resources>

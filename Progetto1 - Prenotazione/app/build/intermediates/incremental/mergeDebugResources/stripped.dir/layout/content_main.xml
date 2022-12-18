@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/initialGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/initial_greeting"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="@dimen/vertical_distance"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textStyle="bold"
+        android:textColor="#FFFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/carousel_height"
+        android:layout_marginTop="@dimen/carousel_distance"
+        app:fillColor="#FFFFFFFF"
+        app:pageColor="#00000000"
+        app:radius="6dp"
+        app:slideInterval="3000"
+        app:strokeColor="#FF777777"
+        app:strokeWidth="1dp" />
+
+    <TextView
+        android:id="@+id/carouselText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/carouselView"
+        android:layout_alignLeft="@id/carouselView"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        android:text="@string/carousel_string_1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <!--<Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_sign_in"
+        android:layout_below="@id/carouselView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/vertical_distance"
+        android:onClick="goToLogin"/>-->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bottomColor"
+        android:drawableLeft="@drawable/login"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="36dp"
+        android:paddingTop="10dp"
+        android:text="@string/action_sign_in"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textStyle="bold"
+        android:textColor="#e8e9e9"
+        android:onClick="goToLogin" />
+
+</RelativeLayout>

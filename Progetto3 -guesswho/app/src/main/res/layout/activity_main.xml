@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#fafafa"
+    android:orientation="horizontal">
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/questions_input"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:text="Start"/>
+        <Button
+            android:id="@+id/yes_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="190dp"
+            android:text="Yes"/>
+
+        <Button
+            android:id="@+id/no_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="100dp"
+            android:text="No"/>
+        <Button
+            android:id="@+id/unknow_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:text="Unknow"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#fafafa"
+        android:id="@+id/griglia">
+        <GridView
+            android:id="@+id/gvCharacters"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:columnWidth="155dp"
+            android:horizontalSpacing="15dp"
+            android:numColumns="auto_fit"
+            android:verticalSpacing="15dp">
+        </GridView>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

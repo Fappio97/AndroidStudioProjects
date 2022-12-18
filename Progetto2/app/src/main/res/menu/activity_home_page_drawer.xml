@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/profilo"
+                android:icon="@drawable/profilo"
+                android:title="Profilo"/>
+        <item
+                android:id="@+id/annuncimiei"
+                android:icon="@drawable/mieiannunci"
+                android:title="I miei annunci"/>
+        <item
+                android:id="@+id/preferiti"
+                android:icon="@drawable/preferiti"
+                android:title="Preferiti"/>
+        <item
+                android:id="@+id/nuovi"
+                android:icon="@drawable/nuovo"
+                android:title="Aggiungi annuncio"/>
+        <item
+                android:id="@+id/ricerca"
+                android:icon="@drawable/search"
+                android:title="Ricerca annunci"/>
+        <item
+                android:id="@+id/logouts"
+                android:icon="@drawable/logout"
+                android:title="Logout"/>
+    </group>
+
+</menu>

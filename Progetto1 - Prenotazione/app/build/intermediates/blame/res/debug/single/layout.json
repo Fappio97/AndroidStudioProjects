@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/giacomino/AndroidStudioProjects/progetto-android-newOne/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/prenotazione_fragment_details.xml",
+        "source": "/home/giacomino/AndroidStudioProjects/progetto-android-newOne/app/src/main/res/layout/prenotazione_fragment_details.xml"
+    },
+    {
+        "merged": "/home/giacomino/AndroidStudioProjects/progetto-android-newOne/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/libera_fragment_details.xml",
+        "source": "/home/giacomino/AndroidStudioProjects/progetto-android-newOne/app/src/main/res/layout/libera_fragment_details.xml"
+    }
+]

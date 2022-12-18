@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_trash"
+        android:name="it.unical.demacs.ecological.ui.trash.TrashFragment"
+        android:label="@string/title_trash"
+        tools:layout="@layout/fragment_trash" />
+
+    <fragment
+        android:id="@+id/navigation_mission"
+        android:name="it.unical.demacs.ecological.ui.missions.MissionsFragment"
+        android:label="@string/title_mission"
+        tools:layout="@layout/fragment_missions"/>
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="it.unical.demacs.ecological.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_goals"
+        android:name="it.unical.demacs.ecological.ui.goals.GoalsFragment"
+        android:label="@string/title_goals"
+        tools:layout="@layout/fragment_goals" />
+
+    <fragment
+        android:id="@+id/navigation_rewards"
+        android:name="it.unical.demacs.ecological.ui.rewards.RewardsFragment"
+        android:label="@string/title_rewards"
+        tools:layout="@layout/fragment_rewards" />
+</navigation>

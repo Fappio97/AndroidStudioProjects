@@ -1,0 +1,103 @@
+<resources>
+    //Generali
+    <string name="app_name">AffittoStudentiTorino</string>
+    <string name="logo">logoapplicazione</string>
+    <string name="title_activity_home">Home</string>
+    <string name="vuoto">xxxxxxxxxxxx</string>
+    <string name="menu">menu applicazione</string>
+
+
+    //MainActivity
+    <string name="login">login</string>
+    <string name="registrazione">Non hai un account? clicca qui per registrarti</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+
+    //NuovoAccount
+    <string name="nuovoaccount">Inserisci i dati:</string>
+    <string name="registrazione2">registrati</string>
+    <string name="nome">nome</string>
+    <string name="cognome">cognome</string>
+    <string name="email">email</string>
+    <string name="passsword">password</string>
+    <string name="telefono">telefono</string>
+    <string name="matricola">matricola universitaria</string>
+    <string name="corso">corso di studi</string>
+    <string name="studente">sei studente?</string>
+
+
+    //HomePage
+    <string name="welcome"></string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="report">risoluzione problemi</string>>
+
+    //VediProfilo
+    <string name="immprofilo">vedi dati utente</string>
+
+    //Help
+    <string name="soggetto">argomento del problema</string>
+    <string name="corpo">descrivi il tuo problema</string>
+
+    //Array corsi
+    <string-array name="lista_corsi">
+        <item></item>
+        <item>informatica</item>
+        <item>ingegneria informatica</item>
+        <item>ingengneria edile</item>
+        <item>infermieristica</item>
+    </string-array>
+
+    //Array zone Torino
+    <string-array name="lista_zone">
+        <item></item>
+        <item>Centro Storico</item>
+        <item>San Salvario</item>
+        <item>Crocetta</item>
+        <item>San Paolo</item>
+        <item>Cenisia</item>
+        <item>Campidoglio</item>
+        <item>Aurora</item>
+        <item>Vanchiglia</item>
+        <item>Nizza</item>
+        <item>Lingotto</item>
+        <item>Santa Rita</item>
+        <item>Mirafiori Nord</item>
+        <item>Pozzo Strada</item>
+        <item>Parella</item>
+        <item>Le Vallette</item>
+        <item>Lanzo</item>
+        <item>Borgata Vittoria</item>
+        <item>Barriera di Milano</item>
+        <item>Falchera</item>
+        <item>Bertolla</item>
+        <item>Madonna del Pilone</item>
+        <item>Borgo Po</item>
+        <item>Mirafiori Sud</item>
+    </string-array>
+
+    //Array numeri
+    <string-array name="lista_numeri">
+        <item></item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    /Array tipo affitti
+    <string-array name="lista_affitti">
+        <item></item>
+        <item>singola</item>
+        <item>doppia</item>
+        <item>tripla</item>
+    </string-array>
+</resources>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="formSelection"
+            type="com.unito.prenotazioniandroid.tabelle.FormSelection" />
+    </data>-->
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".BookingActivity"
+    tools:showIn="@layout/activity_booking"
+    android:background="@drawable/ic_rainbow_vortex">
+
+    <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="@dimen/filter_margin_top"
+        android:elevation="3dp"
+        app:cardCornerRadius="8dp"
+        app:cardPreventCornerOverlap="true">
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="@dimen/column_width"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/bookingSelection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/spinner_height"
+                    android:layout_weight="1"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:background="@drawable/spinner_border"
+                    android:entries="@array/planets_array"
+                    android:focusable="auto" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/spinner_height"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_weight="1"
+                    android:background="@drawable/spinner_border"
+                    android:entries="@array/planets_array" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:id="@+id/daySelection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_days"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+
+                <CheckBox
+                    android:id="@+id/Lun"
+                    android:textColor="@color/colorDisabled"
+                    android:clickable="false"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="Lun"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+                <CheckBox
+                    android:id="@+id/Mar"
+                    android:textColor="@color/colorDisabled"
+                    android:clickable="false"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="Mar"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+                <CheckBox
+                    android:id="@+id/Mer"
+                    android:textColor="@color/colorDisabled"
+                    android:clickable="false"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="Mer"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+
+                <CheckBox
+                    android:id="@+id/Gio"
+                    android:textColor="@color/colorDisabled"
+                    android:clickable="false"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="Gio"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+                <CheckBox
+                    android:id="@+id/Ven"
+                    android:textColor="@color/colorDisabled"
+                    android:clickable="false"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="Ven"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+                <CheckBox
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="Nulla"
+                    android:visibility="invisible"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:id="@+id/timeSelection"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/select_hours"
+                    android:layout_weight="1" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+
+                <CheckBox
+                    android:id="@+id/fifteen"
+                    android:textColor="@color/colorDisabled"
+                    android:clickable="false"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="15.00-16.00"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+                <CheckBox
+                    android:id="@+id/sixteen"
+                    android:textColor="@color/colorDisabled"
+                    android:clickable="false"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="16.00-17.00"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin">
+
+                <CheckBox
+                    android:id="@+id/seventeen"
+                    android:textColor="@color/colorDisabled"
+                    android:clickable="false"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="17.00-18.00"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+                <CheckBox
+                    android:id="@+id/eighteen"
+                    android:textColor="@color/colorDisabled"
+                    android:clickable="false"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:text="18.00-19.00"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_distance">
+
+                <Button
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:paddingRight="25dp"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Conferma selezione"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/btn_shape_round"
+                    android:onClick="postSelection"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.core.widget.NestedScrollView>
+    <!--
+    </layout>-->

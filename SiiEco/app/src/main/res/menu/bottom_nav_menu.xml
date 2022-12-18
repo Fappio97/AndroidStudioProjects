@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_trash"
+        android:icon="@drawable/ic_baseline_trash_24"
+        android:title="@string/title_trash" />
+
+    <item
+        android:id="@+id/navigation_mission"
+        android:icon="@drawable/ic_mission_24"
+        android:title="@string/title_mission" />
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_goals"
+        android:icon="@drawable/ic_baseline_goal_24"
+        android:title="@string/title_goals" />
+
+    <item
+        android:id="@+id/navigation_rewards"
+        android:icon="@drawable/ic_baseline_rewards_24"
+        android:title="@string/title_rewards" />
+
+</menu>

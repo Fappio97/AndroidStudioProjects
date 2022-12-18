@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                             
+                                                   
+
+    
+                                 
+                 
+                               
+                                                                                        
+           
+
+    <FrameLayout
+        android:background="@drawable/ic_rainbow_vortex"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:tag="layout/prenotazione_fragment_details_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <ImageView
+            android:id="@+id/cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:tag="binding_1"          />
+
+        <View
+            android:id="@+id/black_mask"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#66000000"
+            android:visibility="gone" />
+
+        <ScrollView
+            android:id="@+id/main_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingTop="@dimen/fragment_padding_top"
+            android:scrollbars="none">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="32dp"
+                    card_view:cardBackgroundColor="@android:color/white"
+                    card_view:cardElevation="2dp"
+                    card_view:cardUseCompatPadding="true"
+                    card_view:contentPadding="16dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardPreventCornerOverlap="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/title"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical"
+                            android:maxLines="2"
+                            android:textColor="@color/primaryText"
+                            android:textSize="28sp"
+                            android:tag="binding_2"             />
+
+                        <TextView
+                            android:id="@+id/docente"
+                            style="@style/DetailField"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:tag="binding_3"                                        />
+
+                        <TextView
+                            android:id="@+id/dateAndHour"
+                            style="@style/DetailField"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/ic_calendar"
+                            android:drawablePadding="16dp"
+                            android:minHeight="48dp"
+                            android:tag="binding_4"                                                                                                                          />
+
+                        <LinearLayout
+                            android:id="@+id/overview_container"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                style="@style/HeaderTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Stato" />
+
+                            <TextView
+                                android:id="@+id/stato"
+                                style="@style/DetailField"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAlignment="viewEnd"
+                                android:tag="binding_5"            />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/buttonParent"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/conferma"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:visibility="visible"
+                                android:textColor="@android:color/white"
+                                android:background="@drawable/btn_shape_round_detail"
+                                android:text="Conferma"
+                                android:tag="binding_6"      
+                                android:onClick="confirm" />
+                            <!--layout visible/gone-->
+
+                            <Space
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <Button
+                                android:id="@+id/disdici"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:visibility="visible"
+                                android:textColor="@android:color/white"
+                                android:background="@drawable/btn_shape_round_detail"
+                                android:text="Disdici"
+                                android:tag="binding_7"      
+                                android:onClick="debook" />
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </FrameLayout>
+        </ScrollView>
+    </FrameLayout>
+         

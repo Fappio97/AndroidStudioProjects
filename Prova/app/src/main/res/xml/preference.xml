@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <SwitchPreferenceCompat
+        app:key="key_dark_theme"
+        app:title="Enable Dark Theme?"
+        app:summary="Enabled"
+        />
+    <Preference
+        app:key="key_sample"
+        app:title="Sample Title"
+        app:summary="This is sample summary"
+        />
+    <PreferenceCategory android:title="@string/titolo_activity">
+        <CheckBoxPreference android:key="usa_titolo_custom"
+            android:title="@string/usa_titolo_custom"
+            android:summary="@string/summary_usa_titolo_custom"
+            android:defaultValue="false"/>
+        <EditTextPreference android:key="titolo"
+            android:dependency="usa_titolo_custom"
+            android:title="@string/titolo_da_usare"
+            android:dialogTitle="@string/titolo_da_usare"
+            android:defaultValue="@string/titolo_custom" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/colore_di_sfondo">
+        <ListPreference android:key="colore"
+            android:summary="@string/summary_colore_di_sfondo"
+            android:title="@string/colore_di_sfondo"
+            android:entries="@array/colori"
+            android:defaultValue="#000000"
+            android:entryValues="@array/codici_colori"
+            android:dialogTitle="@string/colore_di_sfondo" />
+    </PreferenceCategory>
+</PreferenceScreen>

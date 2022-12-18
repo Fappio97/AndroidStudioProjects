@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.NoActionBar" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/app_green</item>
+        <item name="colorPrimaryVariant">@color/icon_green1</item>
+
+        <!-- PBar status color -->
+        <item name="colorPrimaryDark">@color/icon_green2</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/app_gray</item>
+        <item name="colorSecondaryVariant">@color/or_bar</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:autofilledHighlight">@android:color/transparent</item>
+    </style>
+</resources>

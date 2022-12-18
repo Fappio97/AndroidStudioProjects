@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>
+
+    <!-- Text size -->
+    <dimen name="splash_text">55sp</dimen>
+    <dimen name="slogan_text">35sp</dimen>
+    <dimen name="primary_text">20sp</dimen>
+    <dimen name="secondary_text">15sp</dimen>
+    <dimen name="tertiary_text">12sp</dimen>
+
+</resources>
